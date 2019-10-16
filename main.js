@@ -8,7 +8,15 @@ const frameWidth = frame.offsetWidth;
 
 // Functions:
 // Reset function
-const reset = () => {};
+const reset = () => {
+  btn.innerText = "stretch the spring";
+  release.style.animationName = "stretch";
+  release.style.animationPlayState = "paused";
+  ball.style.left = "16%";
+  ball.style.marginBottom = "90px";
+  ball.style.transition = "none";
+  bar.style.animationName = "none";
+};
 
 // Stretching spring
 const stretchSpring = () => {
