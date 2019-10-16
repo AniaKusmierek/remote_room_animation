@@ -20,7 +20,13 @@ const stretchSpring = () => {
 
 // Releasing spring
 const releaseSpring = () => {
-  btn.innerText = "impact power is...";
+  bar.style.animationPlayState = "paused";
+  const lastWidth = Math.floor((bar.offsetWidth * 100) / frameWidth);
+  btn.innerText = `impact power is ${lastWidth}%`;
+  release.style.animationName = "none";
+  ball.style.transition = "1s ease-out";
+  ball.style.left = `${lastWidth}%`;
+  ball.style.marginBottom = 0;
 };
 
 // Events
