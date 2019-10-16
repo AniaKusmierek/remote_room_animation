@@ -35,6 +35,9 @@ const releaseSpring = () => {
   ball.style.transition = "1s ease-out";
   ball.style.left = `${lastWidth}%`;
   ball.style.marginBottom = 0;
+  const timer = setTimeout(() => {
+    reset();
+  }, 3000);
 };
 
 // Events
