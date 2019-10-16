@@ -12,7 +12,9 @@ const reset = () => {};
 // Stretching spring
 const stretchSpring = () => {
   btn.innerText = "release the spring";
-  bar.style.width = "50%";
+  bar.style.animationName = "progress";
+  bar.style.animationPlayState = "running";
+  release.style.animationPlayState = "running";
 };
 
 // Releasing spring
