@@ -55,7 +55,9 @@ body {
   width: 5%;
   margin: 0;
   background-color: #3cc;
-  transition: 1s linear;
+  /* transition: 1s linear; */
+  animation: progress 3s linear alternate infinite;
+  animation-play-state: paused;
 }
 .release {
   position: absolute;
