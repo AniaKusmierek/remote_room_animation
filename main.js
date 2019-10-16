@@ -1,6 +1,9 @@
 // Variables
 const btn = document.querySelector(".info");
 const bar = document.querySelector(".frame .progress");
+const release = document.querySelector(".release");
+const ball = document.querySelector(".ball");
+const frame = document.querySelector(".frame");
 
 // Functions:
 // Reset function
