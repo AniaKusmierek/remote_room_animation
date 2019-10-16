@@ -4,6 +4,7 @@ const bar = document.querySelector(".frame .progress");
 const release = document.querySelector(".release");
 const ball = document.querySelector(".ball");
 const frame = document.querySelector(".frame");
+const frameWidth = frame.offsetWidth;
 
 // Functions:
 // Reset function
