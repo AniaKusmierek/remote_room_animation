@@ -102,8 +102,3 @@ body {
     width: 2%;
   }
 }
-@keyframes trigger {
-  100% {
-    width: 18%;
-  }
-}
