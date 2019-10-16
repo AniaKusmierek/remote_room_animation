@@ -66,6 +66,8 @@ body {
   margin-bottom: 100px;
   background-color: cornflowerblue;
   transition: 0.5 linear;
+  animation: stretch 3s linear alternate infinite both;
+  animation-play-state: paused;
 }
 .ball {
   position: absolute;
