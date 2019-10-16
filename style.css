@@ -80,7 +80,7 @@ body {
   margin-bottom: 90px;
   background-color: #5fa;
   border-radius: 50%;
-  transition: 1s linear;
+  transition: 1s ease-out;
 }
 .socle {
   position: absolute;
